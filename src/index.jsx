@@ -6,6 +6,7 @@ import Main from './main.jsx'
 import Video6 from './video6'
 import Video7 from './video7'
 import Video8 from './video8'
+import Video17 from './video17'
 
 render((
   <Router>
@@ -14,6 +15,7 @@ render((
       <Route path='v6' component={Video6} />
       <Route path='v7' component={Video7} />
       <Route path='v8' component={Video8} />
+      <Route path='v17' component={Video17} />
     </Route>
   </Router>
 ), document.getElementById('app'))
