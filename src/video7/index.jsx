@@ -5,7 +5,7 @@ export default class Video7 extends React.Component {
   render() {
     return (
       <div>
-        <div>{this.state.counter}</div>
+        <h1>{this.state.counter}</h1>
         <button onClick={() => store.dispatch({type: 'INCREMENT'})}>+</button>
         <button onClick={() => store.dispatch({type: 'DECREMENT'})}>-</button>
       </div>

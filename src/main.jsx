@@ -5,6 +5,10 @@ const links= [
   { to: '/v7', label: 'Video 7' },
   { to: '/v8', label: 'Video 8' },
   { to: '/v17', label: 'Video 17' },
+  { to: '/v18', label: 'Video 18' },
+  { to: '/v19', label: 'Video 19' },
+  { to: '/v20', label: 'Video 20' },
+  { to: '/v21', label: 'Video 21' },
 ]
 
 const Menu= ({locale, setLocale}) =>
@@ -17,9 +21,11 @@ const Menu= ({locale, setLocale}) =>
   </ul>
 
 const Main= ({locale, setLocale, children}) =>
-  <div>
+  <div style={{display: 'flex'}}>
     <Menu locale={locale} setLocale={setLocale}/>
-    {children}
+    <div style={{flexGrow: 1}}>
+      {children}
+    </div>
   </div>
 
 export default Main
@@ -27,9 +33,9 @@ export default Main
 import VendorPrefix from 'react-vendor-prefixes'
 let styles = VendorPrefix.prefix({
   ul: {
-    display: 'flex',
     margin: 0,
     padding: 0,
+    width: 100,
   },
 
   li: {
