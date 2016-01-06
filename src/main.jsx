@@ -9,6 +9,15 @@ const links= [
   { to: '/v19', label: 'Video 19' },
   { to: '/v20', label: 'Video 20' },
   { to: '/v21', label: 'Video 21' },
+  { to: '/v22', label: 'Video 22' },
+  { to: '/v23', label: 'Video 23' },
+  { to: '/v24', label: 'Video 24' },
+  { to: '/v25', label: 'Video 25' },
+  { to: '/v26', label: 'Video 26' },
+  { to: '/v27', label: 'Video 27' },
+  { to: '/v28', label: 'Video 28' },
+  { to: '/v29', label: 'Video 29' },
+  { to: '/v30', label: 'Video 30' },
 ]
 
 const Menu= ({locale, setLocale}) =>
